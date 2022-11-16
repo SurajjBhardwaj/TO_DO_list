@@ -1,0 +1,122 @@
+body{
+
+background-color: cadetblue;
+
+
+}
+
+li{
+
+font-family: 'Times New Roman', Times, serif;
+color: rgb(10, 10, 10);
+font-family: -apple-system,sans-serif;
+font-size: 100%;
+font-weight: 400;
+text-align: left;
+letter-spacing: -.24px;
+
+}
+.button{
+
+background-color: rgb(77, 67, 219); 
+border-radius: 20px;
+width: 70px;
+transition-duration: 0.4s;
+
+}
+
+
+.button1{
+
+    /* background-color: darkgrey; */
+    border-radius: 30px;
+    width: 250px;
+    transition-duration: 0.4s;
+    /* box-shadow: 0 8px 16px 0 rgba(232, 47, 189, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+    height: 50px;
+    font-family: -apple-system,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -.24px;
+    
+    }
+
+.button:hover{
+     background-color: #009dffde; Green */ 
+    color: rgb(0, 0, 0);
+    /* box-shadow: 0 12px 16px 0 rgba(132, 255, 0, 0.711), 0 17px 50px 0 rgba(0,0,0,0.19); */
+
+}
+
+.button1:hover{
+    /* background-color: #0b0b0bde; Green */
+    color: rgb(6, 6, 6);
+    /* box-shadow: 0 12px 16px 0 rgba(40, 25, 250, 0.711), 0 17px 50px 0 rgba(218, 255, 7, 0.533); */
+
+}
+
+ 
+/* CSS */
+
+.button-73 {
+    size: 30rem;
+  height: 50px;
+  width: 150px;
+  margin-left: -4rem;
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 80em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  margin-left: 2rem;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+ 
+ 
+}
+
+.button-73:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+.a{
+
+width: 100%;
+
+}
+.b{
+
+width: 250%;
+border: #000000 solid 1px;
+
+}

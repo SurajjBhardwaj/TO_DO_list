@@ -1,0 +1,71 @@
+<!-- html lang -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+   
+   
+   <% if (theday==="Wednesday"){ %>
+   <div>
+    <table>
+    <tr> 
+        <td>
+            <p style="margin-top:-1.6rem ;" > Surajj's  </p>
+        </td>
+        <td>
+            <h1 style="color:rgb(9, 51, 82) ;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Geneva, Tahoma; " > TO DO List:</h1> 
+        
+        </td>
+    </tr>
+
+    </table>    
+
+   </div>
+
+   
+      <% } else { %>
+    <h1 style="color:rgb(9, 51, 82) ;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Geneva, Tahoma; " > <%= theday %>  TO DO List:</h1>
+  <% } %>
+ 
+  <ul>
+<!-- 
+<li>take a bath</li>
+<li> have breakfast</li>
+this is how to define a new list and render to the website 
+-->
+
+<%  for(var i=0;i<aH.length;i++){ %>
+
+    
+        <li> <%= aH[i] %></li>
+    
+
+ <% } %>
+</ul>
+
+
+
+<form action="/" method="post" style="margin-top: rem; margin-left:3.4rem" >
+<table>
+<tr>
+    <td class="a" ></td>
+    <td class="a" ><input class="button1" type="text" name="input" value="" placeholder="Add in your list"></td>
+    <td class="a" ><button class="button-73" type="submit" >ADD</button></td>
+</tr> 
+</table>
+</form>
+
+<center>
+    <h4 style=" margin-left: 11cm; font-family: Georgia, 'Times New Roman', Times, serif; ">Keep calm, many more is yet to come!!</h3>
+</center>
+
+
+</body>
+</html>
